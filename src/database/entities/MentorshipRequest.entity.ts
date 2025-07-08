@@ -5,7 +5,7 @@ import {
   Column,
   CreateDateColumn,
 } from 'typeorm';
-import { User } from './user.entity';
+import { User } from './User.entity';
 
 @Entity()
 export class MentorshipRequest {

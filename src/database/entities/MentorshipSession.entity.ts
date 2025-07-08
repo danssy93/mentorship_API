@@ -6,8 +6,9 @@ import {
   CreateDateColumn,
   OneToMany,
 } from 'typeorm';
-import { User } from './User.entity';
+
 import { Feedback } from './Feedback.entity';
+import { User } from './User.entity';
 
 // src/database/entities/mentorship-session.entity.ts
 @Entity()
